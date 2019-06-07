@@ -49,8 +49,17 @@ function readLine() {
 
 // Complete the angryProfessor function below.
 function angryProfessor(k, a) {
-  const t = a.filter(i => i <= 0)
-  return t.length >= k ? 'NO' : 'YES'
+    /*
+    function angryProfessor(k, a) {
+    let result = a.filter(function(i){
+    return i <= 0; 
+        });
+    return result.length >= k ? 'NO' : 'YES'
+    }
+    */
+    
+  const result = a.filter(i => i <= 0)
+  return result.length >= k ? 'NO' : 'YES'
     
 
 }
