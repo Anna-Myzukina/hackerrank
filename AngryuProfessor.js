@@ -1,3 +1,26 @@
+/* I use here method  .filter()
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+The filter() method creates a new array with all elements 
+that pass the test implemented by the provided function.
+
+Example:
+var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.filter(word => word.length > 6);
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+
+Метод «arr.filter(callback[, thisArg])» используется для фильтрации массива через функцию.
+Он создаёт новый массив, в который войдут только те элементы arr, 
+для которых вызов callback(item, i, arr) возвратит true.
+item – очередной элемент массива.
+i – его номер.
+arr – массив, который перебирается.
+*/
+
+
+
 'use strict';
 
 const fs = require('fs');
