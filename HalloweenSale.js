@@ -1,3 +1,5 @@
+/*Halloween Sale */
+
 'use strict';
 
 const fs = require('fs');
